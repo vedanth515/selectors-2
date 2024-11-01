@@ -1,0 +1,49 @@
+li[data-available="true"]{
+    background-color: green;
+    margin: 20px;
+}
+
+li[data-available="false"]{
+    background-color: red;
+    margin: 20px;
+}
+
+li[data-price="high"]{
+    font-weight: bold;
+}
+
+body{
+    margin: 100px;   
+}
+
+ul{
+    background-color:lightcyan;
+    padding: 10px;
+}
+
+li{
+    padding: 10px;
+}
+
+ul li[data-category="Electronics"]{
+    list-style-type: upper-alpha;
+}
+
+ul li:nth-child(1)[data-category="Appliances"]{
+    list-style-type: upper-alpha;
+}
+
+ul li:nth-child(2){
+    list-style-type:number;
+}
+
+ul li:nth-child(4){
+    list-style-type:number;
+}
+
+ul li:nth-child(5){
+    list-style-type:number;
+}
+    
+
+
